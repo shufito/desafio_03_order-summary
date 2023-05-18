@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+    <style>
+      .bg-switch {
+        background-image: url("./images/pattern-background-mobile.svg");
+      }
+      @media screen and (min-width: 376px) {
+        .bg-switch {
+          background-image: url("./images/pattern-background-desktop.svg");
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="min-h-screen flex flex-col items-center justify-center bg-PaleBlue bg-contain bg-top bg-no-repeat bg-switch"
+    >
+      <div class="w-[22rem] rounded-xl overflow-hidden shadow-lg">
+        <img
+          src="./images/illustration-hero.svg"
+          alt="Ilustração de menina escutando musica"
+        />
+        <div class="px-8 py-8 space-y-4 bg-White">
+          <h1 class="text-2xl text-center text-DarkBlue font-black">
+            Order Summary
+          </h1>
+
+          <p class="text-sm text-center text-DesaturatedBlue font-medium">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+
+          <div
+            class="bg-VeryPaleBlue flex items-center justify-between px-4 py-4 rounded-lg"
+          >
+            <div class="flex gap-4 items-center">
+              <img
+                src="./images/icon-music.svg"
+                alt="Icone de Musica"
+                class=""
+              />
+              <div class="flex flex-col text-sm">
+                <span class="text-DarkBlue font-black">Annual Plan</span>
+                <span class="text-DesaturatedBlue">$59.99/year</span>
+              </div>
+            </div>
+            <a
+              href=""
+              class="text-sm font-bold text-BrightBlue underline hover:text-BrightBlue/80 hover:no-underline"
+              >Change</a
+            >
+          </div>
+          <button
+            class="w-full bg-BrightBlue text-sm text-White font-bold h-10 rounded-lg drop-shadow-2xl hover:bg-BrightBlue/80"
+          >
+            Proceed to Payment
+          </button>
+          <button
+            class="w-full text-sm text-DesaturatedBlue font-bold hover:text-DarkBlue"
+          >
+            Cancel Order
+          </button>
+        </div>
+      </div>
+      <div class="attribution text-xs text-DesaturatedBlue/60 mt-2">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/shufito" target="_blank" class="underline hover:text-DarkBlue"
+          >João Victor</a
+        >.
+      </div>
+    </div>
+  </body>
+</html>
