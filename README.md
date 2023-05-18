@@ -1,4 +1,4 @@
-# Frontend Mentor - solução de componente de código QR
+# Frontend Mentor - solução de Cartão de resumo de pedido
 
 ![Order summary card challenge on Frontend Mentor](./design/desktop-preview.jpg)
 
